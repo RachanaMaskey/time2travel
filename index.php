@@ -579,7 +579,25 @@
 
         <!-- ##### FOOTER ##### -->
         <footer class="footer-outer">
-            <?php include("footer.php")?>
+            <div class="footer-nav">
+                <div class="container-l">
+                    <ul class="menu">
+                        <li><a href="index.html" class="hvr-sweep-to-top">Home</a></li>
+                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">About</a></li>
+                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">Services</a></li>
+                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">Our Team</a></li>
+                        <li><a href="#modal-contact" class="hvr-sweep-to-top" uk-toggle>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-wrap container-l">
+                <div class="copyright">
+                    <p>&copy;  2021 Theme Ten by <a href="https://maczac.com" target="_blank" class="hvr-line-light-center">MacZac.com</a>. All rights reserved.</p>
+                    <p>Photo credit: Unsplash, Pixabay &amp; Pexels.</p>
+                    <p><a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Disclaimer</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Site Map</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Privacy Policy</a> </p>
+                </div> <!-- /.copyright -->
+                <a href="#" id="go-top" class="bg-transition" title="Go to top" uk-totop uk-scroll></a>
+            </div>
         </footer>
 
         <!-- ##### Offcanvas ##### -->
