@@ -40,32 +40,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Add Product</title>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-
-</head>
-<style>
-  body{
-   
-      background: rgba(54, 162, 235, 0.2);
-  }
-</style>
-
-<body class="container p-4">
-  <form class="row g-3" method="POST" action="#" enctype="multipart/form-data">
-    <!-- <div class="container mb-2"><a class="btn btn-secondary" href="./index.php">Dashboard</a></div> -->
-    <h2>Add Post <?php ?></h2>
-
-   <div class="col-sm-12">
-   <label for="image">Image:</label>
-    <input type="file" class="form-control shadow-sm" id="image" name="image" required>
-   </div>
-
-    <button class="btn btn-primary shadow-sm" type="submit">Add Product</button>
-  </form>
+  <!-- CSS -->
+  <link href="css/uikit.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
 
+<body>
+    <div id="page">
+        <div class="uk-width-4-5 uk-width-1-1@m" style="background-color: #f2e0c9;">
+                <a href="index.php"><img src="images/logo1.png" width="120" height="46"
+                alt="maczac" /></a>
+        </div>
+        <section class="btm-one-wrap full-width" style="background-color: #8c3838;">
+            <div class="container" style="width: 800px; margin: 0 auto;">
+                <div class="qc-card">
+                <div>
+                    <h1 class="h1-light">Add Posts Here</h1>
+                </div>
+                <form method="POST" action="#" enctype="multipart/form-data" class="uk-grid-small" uk-grid>
+                    <div class="col-sm-12">
+                        <label for="image" style="color: white; font-size: 1.5rem;" class="h2-dark">Image:</label>
+                        <input type="file" class="uk-form-large form-control shadow-sm" id="image" name="image" required>
+                    </div>
+                    <!-- <div class="uk-width-1-1">
+                        <label for="caption" style="color: white; font-size: 1.5rem;" class="h2-dark">Caption:</label>
+                        <input class="uk-form-large form-control shadow-sm" type="text" placeholder="Caption" name="fname" required />
+                    </div> -->
+                    <div class="uk-width-1-1">
+                    <button class="btn-transparent hvr-sweep-to-top"  style="background-color: #8c3838;;" type="submit">Add Post</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </section>
+
+         <!-- ##### FOOTER ##### -->
+         <footer class="footer-outer">
+
+            <div class="footer-wrap container-l">
+                <div class="copyright">
+                    <p>&copy;  2021 Theme Ten by <a href="index.php" target="_blank" class="hvr-line-light-center">MacZac.com</a>. All rights reserved.</p>
+                    <p>Photo credit: Unsplash, Pixabay &amp; Pexels.</p>
+                    <p><a href="index.php" target="_blank"  class="hvr-line-light-center">Disclaimer</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Site Map</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Privacy Policy</a> </p>
+                </div> <!-- /.copyright -->
+                <a href="#" id="go-top" class="bg-transition" title="Go to top" uk-totop uk-scroll></a>
+            </div>
+        </footer>
+
+    </div>
 </body>
 
 </html>

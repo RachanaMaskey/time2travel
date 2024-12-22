@@ -23,7 +23,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MacZac - Theme Ten</title>
+    <title>Time2Travel</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -67,7 +67,7 @@
                                 <div class="uk-hidden@m" uk-sticky="animation: uk-animation-slide-top">
                                     <a class="btn-maroon bg-transition" href="tel:1-555-555-5555"><span
                                             class="uk-margin-small-right" uk-icon="icon: phone; ratio: 1.50"></span>
-                                        555-555-5555</a>
+                                        9841100000</a>
                                 </div>
                             </div>
                         </div>
@@ -77,18 +77,7 @@
                         <div class="hdr-nav">
                             <div class="desktop-menu uk-visible@m">
                                 <ul class="menu">
-                                    <li><a href="#" class="bg-transition">About</a></li>
-                                    <li>
-                                        <a href="#" class="bg-transition">Services</a>
-                                        <ul class="uk-animation-fade">
-                                            <li><a href="#">Service 1</a></li>
-                                            <li><a href="#">Service 2</a></li>
-                                            <li><a href="#">Service 3</a></li>
-                                            <li><a href="#">Service 4</a></li>
-                                            <li><a href="#">Service 5</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#" class="bg-transition">Chatbot</a></li>
+                                    <li><a href="addpost.php" class="bg-transition">posts</a></li>
 
                                     <li>
                                         <a href="#modal-login" class="bg-transition" uk-toggle><?php
@@ -178,7 +167,7 @@
                             <div class="cta-card">
                                 <h3>Kathmandu</h3>
                                 <p>
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="index.php" target="_blank"
                                         class="hvr-line-dark-center">destinations</a><span
                                         uk-icon="icon: arrow-right; ratio: 1.5"></span>
                                 </p>
@@ -197,7 +186,7 @@
                             <div class="cta-card">
                                 <h3>Pokhara</h3>
                                 <p>
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="index.php" target="_blank"
                                         class="hvr-line-dark-center">destinations</a><span
                                         uk-icon="icon: arrow-right; ratio: 1.5"></span>
                                 </p>
@@ -216,7 +205,7 @@
                             <div class="cta-card">
                                 <h3>Chitwan</h3>
                                 <p>
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="index.php" target="_blank"
                                         class="hvr-line-dark-center">destinations</a><span
                                         uk-icon="icon: arrow-right; ratio: 1.5"></span>
                                 </p>
@@ -235,7 +224,7 @@
                             <div class="cta-card">
                                 <h3>Mustang</h3>
                                 <p>
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="index.php" target="_blank"
                                         class="hvr-line-dark-center">destinations</a><span
                                         uk-icon="icon: arrow-right; ratio: 1.5"></span>
                                 </p>
@@ -253,22 +242,21 @@
                     <div class="uk-grid-large uk-margin-remove" uk-grid>
                         <div class="uk-width-2-5@m body-left">
                             <div class="page-content">
-                                <h1 class="h1-light">About Our Agency</h1>
+                                <h1 class="h1-light">About Our Vision</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Praesentium, velit quia
-                                    <a href="#">corrupti porro</a> reiciendis explicabo vel est
-                                    voluptatem quae, in mollitia sequi quidem perspiciatis.
+                                    Traveling is fun but very stressful when it comes to planning and arranging the trip.
+                                    Time2Travel is a travel friendly platform withs its main aim to make 
+                                    travel planning less stressful.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet,
-                                    <a href="#">consectetur adipisicing elit</a>. Beatae eaque
-                                    repellat error quaerat, perferendis ab quasi unde porro,
-                                    velit deserunt asperiores voluptatibus minima magnam ducimus
-                                    magni, aperiam.
+                                    Our website solves the issue of lack of centralized information about the hotel informations,
+                                    restaurant informatiions and nearby places to visit.So our website offers such feature and many 
+                                    more.
+                                    <br>
+                                    Do explore the website
                                 </p>
                                 <div class="uk-margin-medium-top uk-text-center">
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="index.php" target="_blank"
                                         class="btn-transparent hvr-sweep-to-top">Learn more</a>
                                 </div>
                             </div>
@@ -277,13 +265,13 @@
                         <div class="uk-width-3-5@m body-right">
                             <div uk-lightbox>
                                 <div class="uk-inline uk-light">
-                                    <img src="images/img-about.jpg" width="900" height="425" alt="Watch Video"
-                                        style="border: 5px solid #f2e0c9" />
+                                    <img src="images/logo1.png" width="500" height="400" alt="logo"
+                                        style="border: 10px solid #f2e0c9;margin-right: 50px" />
                                     <div class="uk-position-center">
-                                        <a class="ico-vdo" href="https://youtu.be/9dNegXgBa80"
+                                        <!-- <a class="ico-vdo" href="https://youtu.be/9dNegXgBa80"
                                             data-caption="Lightbox Popup Video"
                                             data-attrs="width: 1280; height: 720;"><span
-                                                uk-icon="icon: play-circle; ratio: 3.5"></span></a>
+                                                uk-icon="icon: play-circle; ratio: 3.5"></span></a> -->
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +282,7 @@
             </div>
         </section>
 
-        <section class="btm-one-wrap full-width">
+        <!-- <section class="btm-one-wrap full-width">
             <div class="btm-one">
                 <div class="container-l">
                     <div class="uk-grid-large uk-margin-remove" uk-grid>
@@ -316,17 +304,17 @@
                                     magni, aperiam.
                                 </p>
                                 <div class="uk-margin-medium-top uk-text-center">
-                                    <a href="https://maczac.com" target="_blank"
+                                    <a href="imdex.php" target="_blank"
                                         class="btn-transparent hvr-sweep-to-top">Learn more</a>
                                 </div>
                             </div>
                         </div>
-                        <!-- /.btp-left -->
-                        <div class="uk-width-3-5@m bto-right uk-flex-first@m">
+                        </.btp-left -->
+                        <!-- <div class="uk-width-3-5@m bto-right uk-flex-first@m">-->
                             <!-- Nested Grid -->
-                            <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+                            <!-- <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>-->
                                 <!-- 1 -->
-                                <div>
+                                <!-- <div>
                                     <div class="uk-inline-clip uk-transition-toggle" style="border: 5px solid #f2e0c9">
                                         <img src="images/profile-3.jpg" width="600" height="800"
                                             alt="Business Profile 3"
@@ -334,14 +322,14 @@
                                         <div
                                             class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                                             <div class="uk-text-center">
-                                                <a href="https://maczac.com" target="_blank"
+                                                <a href="index.php target="_blank"
                                                     class="btn-blue bg-transition">Profile</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- 2 -->
-                                <div>
+                                <!-- <div>
                                     <div class="uk-inline-clip uk-transition-toggle" style="border: 5px solid #f2e0c9">
                                         <img src="images/profile-1.jpg" width="600" height="800"
                                             alt="Business Profile 1"
@@ -349,14 +337,14 @@
                                         <div
                                             class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                                             <div class="uk-text-center">
-                                                <a href="https://maczac.com" target="_blank"
-                                                    class="btn-blue bg-transition">Profile</a>
+                                                <a href="index.php" target="_blank"
+                                                    classf="index.php="btn-blue bg-transition">Profile</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- 3 -->
-                                <div>
+                                <!-- <div>
                                     <div class="uk-inline-clip uk-transition-toggle" style="border: 5px solid #f2e0c9">
                                         <img src="images/profile-2.jpg" width="600" height="800"
                                             alt="Business Profile 2"
@@ -364,28 +352,66 @@
                                         <div
                                             class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                                             <div class="uk-text-center">
-                                                <a href="https://maczac.com" target="_blank"
+                                                <a href="index.php" target="_blank"
                                                     class="btn-blue bg-transition">Profile</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- End of Nested Grid -->
-                        </div>
+                        <!-- </div> -->
                         <!-- /.bto-right -->
-                    </div>
+                    <!-- </div>
                 </div>
-            </div>
-            <!-- /.btm-one -->
-        </section>
+            </div> -->
+            <!-- /.btm-one
+        </section>   -->
+
+
         <!-- Search -->
-        <?php
-        include('chatbot.php');
-      ?>
+        <section class="btm-one-wrap full-width" style="margin-bottom: 0;">
+            <!-- <div class="btm-one">
+                <div class="container">-->
+                    <div class="uk-grid-large uk-margin-remove" uk-grid>
+                        <div class="uk-width-4-5@m bto-right uk-flex-center btm-one-wrap ">
+                            <div class="container uk-flex-center">
+                                <h2 class="h1-light" style="text-align:center;color:#8c3838;max-width: 900px;">Lets explore and plan</h2>
+                                <br>
+                                <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+                                    <div style="flex: 1; min-width: 250px;">
+                                        <label for="place" style="color: #8c3838; font-size: 1rem;" class="h2-dark"><b>Place:</b></label>
+                                        <input type="text" id="place" class="uk-form-large form-control shadow-sm">
+                                    </div>
+                                    <div style="flex: 1; min-width: 250px;">
+                                        <label for="budget" style="color: #8c3838; font-size: 1rem;" class="h2-dark"><b>Budget:</b></label>
+                                        <input type="text" id="budget" class="uk-form-large form-control shadow-sm">
+                                    </div>
+                                    <div style="flex: 1; min-width: 250px;">
+                                        <label for="time" style="color: #8c3838; font-size: 1rem;" class="h2-dark"><b>Time:</b></label>
+                                        <input type="text" id="time" class="uk-form-large form-control shadow-sm">
+                                    </div>
+                                </div>
 
+                                <br>
+                                <button style="background-color: #8c3838; margin: 0 auto; display: block;" class="btn-transparent hvr-sweep-to-top" onclick="generateResponse();">Generate Response</button>
+                                <br>
+                               
 
-        <div class="review">
+                                <div id="response"></div>
+
+                                <script src="script.js"></script>
+                            </div>
+                        </div>
+                        <!-- <?php
+                            // include('chatbot.php');
+                        ?> -->
+                    </div>
+                <!--</div>    
+            </div>-->
+        </section>
+
+        <div style="margin-top: 0;" class="review">
             <section class="btm-two-wrap full-width">
                 <div class="btm-two container-l">
                     <h2 class="h2-light">Customer Reviews</h2>
@@ -498,8 +524,7 @@
                     </div>
                     <!-- End Slider -->
                     <div class="uk-margin-large-top uk-text-center">
-                        <a href="https://maczac.com" target="_blank" class="btn-transparent hvr-sweep-to-top">More
-                            Reviews</a>
+                        <a href="index.php" target="_blank" class="btn-transparent hvr-sweep-to-top">More Reviews</a>
                     </div>
                 </div>
                 <!-- /.review -->
@@ -514,11 +539,11 @@
                         <div class="uk-width-2-5@m btt-left">
                             <div class="btt-content">
                                 <h2 class="h1-light">Contact Us</h2>
-                                <p><strong>MacZac - Theme Ten</strong></p>
+                                <p><strong>Time2Travel</strong></p>
                                 <p>
-                                    Street Address. Suite # <br />
-                                    City, State, Zip/Postal<br />
-                                    Telephone: (555) 555-5555
+                                    PRD <br />
+                                    Paknajol, Kathmandu<br />
+                                    Telephone: 9841000000
                                 </p>
                                 <p>
                                     <a href="https://www.google.com/maps" class="hvr-line-light-center"
@@ -527,33 +552,33 @@
                                 <!-- Email -->
                                 <div class="uk-margin-small-top uk-text-center"
                                     uk-scrollspy="cls: uk-animation-shake; repeat: true">
-                                    <a href="#modal-contact" target="_blank" class="btn-transparent hvr-sweep-to-top"
+                                    <a href="#" target="_blank" class="btn-transparent hvr-sweep-to-top"
                                         uk-toggle>Email Us</a>
                                 </div>
                                 <!-- Social -->
                                 <ul class="social-ftr uk-margin-medium-top">
                                     <li>
-                                        <a href="https://maczac.com" target="_blank" class="hvr-sweep-to-top"
+                                        <a href="index.php" target="_blank" class="hvr-sweep-to-top"
                                             uk-tooltip="title: Facebook; pos: bottom"><span
                                                 uk-icon="icon: facebook; ratio: 1.50"></span></a>
                                     </li>
                                     <li>
-                                        <a href="https://maczac.com" target="_blank" class="hvr-sweep-to-top"
+                                        <a href="index.php" target="_blank" class="hvr-sweep-to-top"
                                             uk-tooltip="title: LinkedIn; pos: bottom"><span
                                                 uk-icon="icon: linkedin; ratio: 1.50"></span></a>
                                     </li>
                                     <li>
-                                        <a href="https://maczac.com" target="_blank" class="hvr-sweep-to-top"
+                                        <a href="index.php" target="_blank" class="hvr-sweep-to-top"
                                             uk-tooltip="title: Twitter; pos: bottom"><span
                                                 uk-icon="icon: twitter; ratio: 1.50"></span></a>
                                     </li>
                                     <li>
-                                        <a href="https://maczac.com" target="_blank" class="hvr-sweep-to-top"
+                                        <a href="index.php" target="_blank" class="hvr-sweep-to-top"
                                             uk-tooltip="title: YouTube; pos: bottom"><span
                                                 uk-icon="icon: youtube; ratio: 1.50"></span></a>
                                     </li>
                                     <li>
-                                        <a href="https://maczac.com" target="_blank" class="hvr-sweep-to-top"
+                                        <a href="index.php" target="_blank" class="hvr-sweep-to-top"
                                             uk-tooltip="title: Instagram; pos: bottom"><span
                                                 uk-icon="icon: instagram; ratio: 1.50"></span></a>
                                     </li>
@@ -579,22 +604,11 @@
 
         <!-- ##### FOOTER ##### -->
         <footer class="footer-outer">
-            <div class="footer-nav">
-                <div class="container-l">
-                    <ul class="menu">
-                        <li><a href="index.html" class="hvr-sweep-to-top">Home</a></li>
-                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">About</a></li>
-                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">Services</a></li>
-                        <li><a href="https://www.maczac.com" class="hvr-sweep-to-top">Our Team</a></li>
-                        <li><a href="#modal-contact" class="hvr-sweep-to-top" uk-toggle>Contact</a></li>
-                    </ul>
-                </div>
-            </div>
             <div class="footer-wrap container-l">
                 <div class="copyright">
-                    <p>&copy;  2021 Theme Ten by <a href="https://maczac.com" target="_blank" class="hvr-line-light-center">MacZac.com</a>. All rights reserved.</p>
+                    <p>&copy;  2021 Theme Ten by <a href="index.php" target="_blank" class="hvr-line-light-center">MacZac.com</a>. All rights reserved.</p>
                     <p>Photo credit: Unsplash, Pixabay &amp; Pexels.</p>
-                    <p><a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Disclaimer</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Site Map</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Privacy Policy</a> </p>
+                    <p><a href="index.php" target="_blank"  class="hvr-line-light-center">Disclaimer</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Site Map</a> | <a href="https://maczac.com" target="_blank"  class="hvr-line-light-center">Privacy Policy</a> </p>
                 </div> <!-- /.copyright -->
                 <a href="#" id="go-top" class="bg-transition" title="Go to top" uk-totop uk-scroll></a>
             </div>
@@ -615,28 +629,28 @@
                             Us</a>
                     </li>
                     <li>
-                        <a href="https://maczac.com"><span class="uk-margin-small-right"
+                        <a href="index.php"><span class="uk-margin-small-right"
                                 uk-icon="icon: plus"></span>Services</a>
                         <div class="menu-drop" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
                             <ul class="uk-list uk-list-divider uk-nav uk-dropdown-nav">
                                 <li>
-                                    <a href="https://maczac.com" target="_blank"><span class="uk-margin-small-right"
+                                    <a href="index.php" target="_blank"><span class="uk-margin-small-right"
                                             uk-icon="icon: chevron-right"></span>Service 1</a>
                                 </li>
                                 <li>
-                                    <a href="https://maczac.com" target="_blank"><span class="uk-margin-small-right"
+                                    <a href="index.php" target="_blank"><span class="uk-margin-small-right"
                                             uk-icon="icon: chevron-right"></span>Service 2</a>
                                 </li>
                                 <li>
-                                    <a href="https://maczac.com" target="_blank"><span class="uk-margin-small-right"
+                                    <a href="index.php" target="_blank"><span class="uk-margin-small-right"
                                             uk-icon="icon: chevron-right"></span>Service 3</a>
                                 </li>
                                 <li>
-                                    <a href="https://maczac.com" target="_blank"><span class="uk-margin-small-right"
+                                    <a href="index.php" target="_blank"><span class="uk-margin-small-right"
                                             uk-icon="icon: chevron-right"></span>Service 4</a>
                                 </li>
                                 <li>
-                                    <a href="https://maczac.com" target="_blank"><span class="uk-margin-small-right"
+                                    <a href="index.php" target="_blank"><span class="uk-margin-small-right"
                                             uk-icon="icon: chevron-right"></span>Service 5</a>
                                 </li>
                             </ul>
@@ -701,30 +715,27 @@
                 </div>
                 <div class="uk-modal-body" uk-overflow-auto>
                     <div class="qc-card">
-                        <!-- ##### Quick Contact ##### -->
                         <form method="post" class="uk-grid-small" uk-grid>
                             <div class="uk-width-1-1">
-                                <input class="uk-input form-text uk-form-large" type="text" placeholder="Username"
-                                    name="username" required />
+                                <input class="uk-input form-text uk-form-large" type="text" placeholder="Username" name="username" required />
                             </div>
                             <div class="uk-width-1-1">
-                                <input class="uk-input form-text uk-form-large" type="text" placeholder="Password"
-                                    name="password" required />
+                                <input class="uk-input form-text uk-form-large" type="password" placeholder="Password" name="password" required />
                             </div>
                             <div class="uk-width-1-1 uk-text-center">
-                                <button type="submit" name="submit1" class="fv-btn">Login</button>
+                                <button type="submit" name="submit1" style="background-color: #8c3838;;" class="btn-transparent hvr-sweep-to-top">Login</button>
                                 <div class="forgetpassword">
                                     <a href="#" class="link">Forget Password?</a>
                                 </div>
-                                <p>If not registered please register &nbsp <a href="#modal-register"
-                                        class="link">Register</a></p>
+                                <p>
+                                    If not registered, please register &nbsp 
+                                    <a href="#modal-register" uk-toggle class="link">Register</a>
+                                </p>
                             </div>
                         </form>
-                        <!-- End Quick Contact Form -->
                     </div>
-                    <!-- /.qc-card -->
                 </div>
-            </div>
+            </div>  
         </div>
         <!-- ### End of Modal - Login ### -->
 
@@ -738,32 +749,12 @@
                     <h2>Register</h2>
                 </div>
                 <div class="uk-modal-body" uk-overflow-auto>
-                    <div class="qc-card">
-                        <!-- ##### Quick Contact ##### -->
-                        <form class="uk-grid-small" uk-grid>
-                            <div class="uk-width-1-1">
-                                <input class="uk-input form-text uk-form-large" type="text" placeholder="Username"
-                                    name="username" required />
-                            </div>
-                            <div class="uk-width-1-1">
-                                <input class="uk-input form-text uk-form-large" type="text" placeholder="Password"
-                                    name="password" required />
-                            </div>
-                            <div class="uk-width-1-1 uk-text-center">
-                                <input class="quick-submit uk-button bg-transition" type="Submit" name="login" />
-                                <div class="forgetpassword">
-                                    <a href="#" class="link">Forget Password?</a>
-                                </div>
-                                <p>If not registered please register &nbsp <a href="#modal-register"
-                                        class="link">Register</a></p>
-                            </div>
-                        </form>
-                        <!-- End Quick Contact Form -->
-                    </div>
-                    <!-- /.qc-card -->
+                    <!-- Directly Include the Register Form -->
+                    <?php include("register.php"); ?>
                 </div>
             </div>
         </div>
+
         <!-- ### End of Modal - Login ### -->
 
         <!-- Scripts -->
