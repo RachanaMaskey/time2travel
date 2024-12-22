@@ -6,6 +6,9 @@
         // Retrieve username from session
         $uname = $_SESSION['USER_NAME'] ?? 'Guest'; // Default to 'Guest' if session variable is not set
         
+        // Retrieve the caption from the form input
+        $caption = $_POST['caption'] ?? ''; // Default to empty string if no caption is provided
+
         // Ensure the uploads directory exists
         $targetDir = "uploads/";
         if (!is_dir($targetDir)) {
@@ -18,9 +21,9 @@
             
             if (move_uploaded_file($_FILES["image"]["tmp_name"], $targetFile)) {
                 // Insert product data into the database
-                $sql = "INSERT INTO addpost (uname, image) VALUES ('$uname', '$targetFile')";
+                $sql = "INSERT INTO addpost (uname, image,caption) VALUES ('$uname', '$targetFile','$caption')";
                 if ($conn->query($sql)) {
-                    echo "<p>Picture added successfully</p>";
+                    echo "<p>Picture and captionadded successfully</p>";
                 } else {
                     echo "Error: " . $sql . "<br>" . $connect->error;
                 }
@@ -64,10 +67,10 @@
                         <label for="image" style="color: white; font-size: 1.5rem;" class="h2-dark">Image:</label>
                         <input type="file" class="uk-form-large form-control shadow-sm" id="image" name="image" required>
                     </div>
-                    <!-- <div class="uk-width-1-1">
+                    <div class="uk-width-1-1">
                         <label for="caption" style="color: white; font-size: 1.5rem;" class="h2-dark">Caption:</label>
-                        <input class="uk-form-large form-control shadow-sm" type="text" placeholder="Caption" name="fname" required />
-                    </div> -->
+                        <input class="uk-form-large form-control shadow-sm" type="text" placeholder="Caption" name="caption" required />
+                    </div>
                     <div class="uk-width-1-1">
                     <button class="btn-transparent hvr-sweep-to-top"  style="background-color: #8c3838;;" type="submit">Add Post</button>
                     </div>

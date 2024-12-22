@@ -7,7 +7,7 @@ if (isset($_GET['offset'])) {
 }
 
 // Query to fetch posts with the LIMIT and OFFSET
-$sql = "SELECT uname, image, date FROM addpost LIMIT $limit OFFSET $offset";
+$sql = "SELECT uname, image, caption,date FROM addpost LIMIT $limit OFFSET $offset";
 
 // Execute the query
 $result = $conn->query($sql);
@@ -48,15 +48,15 @@ $result = $conn->query($sql);
                     while ($row = $result->fetch_assoc()) {
                         $uname = $row['uname'];
                         $image = $row['image'];
-                        $date = $row['date']; // Fetch the time value
+                        $date = $row['date']; 
+                        $caption= $row['caption'];// Fetch the value from database
                         echo '<div style="width: 350px; background-color: #8c3838; color: white; padding: 10px; border-radius: 10px;">';
                         echo '    <div class="uk-inline-clip uk-transition-toggle" style="border: 5px solid #8c3838;">';
                         echo '        <img src="' . $image . '" width="600" height="800" alt="Post Image" class="uk-transition-scale-up uk-transition-opaque" />';
                         echo '        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">';
                         echo '            <div class="uk-text-center">';
-                        echo '                <p style="font-size: 18px; margin: 0;">' . htmlspecialchars($uname) . '</p>';
-                        echo '                <p style="font-size: 14px; margin: 5px 0;">' . htmlspecialchars($date) . '</p>'; // Display the time
-                        echo '                <p>hand a great trip ma ke was very easy using this platform</p>';
+                        echo '                <p style="font-size: 18px; margin: 0;"> ' . htmlspecialchars($uname) . ' &nbsp;' . htmlspecialchars($date) .'</p>';
+                        echo '                <p style="font-size: 14px; margin: 1px 0;">' . htmlspecialchars($caption) . '</p>'; // Display the time
                         echo '            </div>';
                         echo '        </div>';
                         echo '    </div>';

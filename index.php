@@ -388,7 +388,7 @@
                                         <input type="text" id="budget" class="uk-form-large form-control shadow-sm">
                                     </div>
                                     <div style="flex: 1; min-width: 250px;">
-                                        <label for="time" style="color: #8c3838; font-size: 1rem;" class="h2-dark"><b>Time:</b></label>
+                                        <label for="time" style="color: #8c3838; font-size: 1rem;" class="h2-dark"><b>Days:</b></label>
                                         <input type="text" id="time" class="uk-form-large form-control shadow-sm">
                                     </div>
                                 </div>
